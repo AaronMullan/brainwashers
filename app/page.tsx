@@ -1,10 +1,10 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-tr808-light-gray text-tr808-black">
-      <div className="fixed top-0 left-0 w-full bg-tr808-black text-tr808-yellow p-2 text-center">
-        <marquee scrollamount="5" className="rainbow">
+      <div className="fixed top-0 left-0 w-full bg-tr808-black text-tr808-yellow p-2 text-center overflow-hidden">
+        <div className="marquee rainbow">
           🎵 Welcome to the BRAINWASHERS Homepage! Best viewed in Netscape Navigator! 🎵
-        </marquee>
+        </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-8 mt-12">
